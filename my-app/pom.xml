@@ -15,7 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
 <scm>
     <connection>scm:git:https://github.com/jkrishna859/maven.git</connection>
 </scm>
@@ -43,3 +42,4 @@
         </plugin>
     </plugins>
 </build>
+</project>

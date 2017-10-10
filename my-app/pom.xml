@@ -16,6 +16,17 @@
     </dependency>
   </dependencies>
 </project>
+<scm>
+    <connection>scm:git:https://github.com/jkrishna859/maven.git</connection>
+</scm>
+
+<distributionManagement>
+    <repository>
+        <id>artifact-repository</id>
+        <url>http://localhost:8081/artifactory</url>
+    </repository>
+</distributionManagement>
+
 <build>
     <plugins>
         <plugin>
